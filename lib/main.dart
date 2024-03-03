@@ -24,9 +24,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: theme(),
         onGenerateRoute: AppRoutes.onGenerateRoutes,
-        home: const DailyNews()
+        home: const DailyNews(),
       ),
     );
   }
 }
-
